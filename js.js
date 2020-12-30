@@ -1,6 +1,6 @@
 var i = 0;
 
-var myVar = setInterval(myTimer, 30);
+var myVar = setInterval(myTimer, 300);
 
 function myTimer() {
 
@@ -14,13 +14,13 @@ function myTimer() {
 
             var unSubBtn = document.getElementById("confirm-button").click();
 
-        }, 20);
+        }, 200);
 
         setTimeout(function() {
 
             els[i].parentNode.removeChild(els[i]);
 
-        }, 20);
+        }, 200);
 
     }
 
