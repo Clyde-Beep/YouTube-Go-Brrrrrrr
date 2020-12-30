@@ -29,5 +29,7 @@ function myTimer() {
     console.log(i + " unsubscribing process completed!");
 
     console.log(els.length + " remaining");
+    
+    console.log("Unsubscriber v2 by JOH")
 
 }
